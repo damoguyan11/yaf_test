@@ -4,4 +4,6 @@
 3.需要在php.ini里面启用如下配置，生产的代码才能正确运行：
 	yaf.environ="product"
 4.重启Webserver;
+本机访问：命令 php -S localhost:8888
+
 5.访问http://yourhost/test/,出现Hellow Word!, 表示运行成功,否则请查看php错误日志;
